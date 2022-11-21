@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'faktpro-semibold';
+  src: local('faktpro-semibold'), url(./assets/fonts/faktpro-semibold.TTF);
+}
+
+@font-face {
+  font-family: 'faktpro-regular';
+  src: local('faktpro-regular'), url(./assets/fonts/fakepro-regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: local('Inter-Medium'), url(./assets/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular'), url(./assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  src: local('Inter-ExtraLight'), url(./assets/fonts/Inter-ExtraLight.ttf);
+}
+
+.home {
+  /* background: #03118D; */
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body {
+  background: #03118D;
+  width: 70%;
+  height: 50vh;
+  position: relative;
+}
+
+.top {
+  margin: 60px 70px;
+  font-size: 32px;
+  text-align: start;
+}
+
+.title {
+  font-family: 'faktpro-semibold';
+  font-weight: 400;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-weight: 200;
+  font-family: 'Inter-ExtraLight';
+}
+
+.bottom {
+  position: absolute; 
+  bottom: 0; 
+  right: 0;
+}
+
+.bottom-text {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='5' ry='5' stroke='white' stroke-width='4' stroke-dasharray='25%2c 15' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 5px;
+  margin: 50px 70px;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Inter-Medium';
+}
